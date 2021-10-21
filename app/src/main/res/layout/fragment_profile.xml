@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_profile_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="#03A9F4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_below="@+id/user_profile_image"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#03A9F4"/>
+
+            <TextView
+                android:id="@+id/user_owned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_below="@+id/user_profile_name"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#03A9F4"/>
+            <TextView
+                android:id="@+id/user_recvd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_below="@+id/user_owned"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#03A9F4"/>
+
+            <TextView
+                android:id="@+id/user_data_encd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encoding : Enabled"
+                android:layout_below="@+id/user_recvd"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="#03A9F4"/>
+
+            <TextView
+                android:id="@+id/encoding_demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encoding Demonstration >>>"
+                android:layout_above="@+id/log_out"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="#9C27B0"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/log_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="Log Out"
+                android:textColor="#2196F3"
+                android:background="#FFFFFF"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>
+
+</RelativeLayout>

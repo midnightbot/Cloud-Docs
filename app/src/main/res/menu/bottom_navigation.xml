@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_yourdocs"
+        android:icon="@drawable/ic_baseline_folder_open_24"
+        android:title="Docs"
+        />
+
+    <item
+        android:id="@+id/nav_shareddocs"
+        android:icon="@drawable/ic_baseline_folder_shared_24"
+        android:title="shared"
+        />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile" />
+
+
+</menu>

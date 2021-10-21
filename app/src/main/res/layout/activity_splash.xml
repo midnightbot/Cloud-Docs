@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_gra"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cloud"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:textStyle="italic|bold"
+            android:id="@+id/nakli"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Docs"
+            android:textColor="#D3BE08"
+            android:textSize="40dp"
+            android:textStyle="italic|bold"
+            android:layout_toRightOf="@+id/nakli"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/asli"/>
+    </RelativeLayout>
+
+</RelativeLayout>
